@@ -1,0 +1,19 @@
+<html>
+<head>
+</head>
+<body>
+	<input type="text" id="na">
+	<button onclick="ab()">Click</button>
+</body>
+<script>
+	var a=document.getElementById("na");
+	function ab(){
+           let sp=new SpeechSynthesisUtterance(a.value);
+           window.speechSynthesis.speak(sp);
+
+
+
+
+	}
+</script>
+</html>
